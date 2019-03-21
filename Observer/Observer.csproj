@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Observer\ConsoleObserver.cs" />
+    <Compile Include="Observer\FileObserver.cs" />
+    <Compile Include="Observed\IObserved.cs" />
+    <Compile Include="Observer\IObserver.cs" />
+    <Compile Include="Observed\MeteoStation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
